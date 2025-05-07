@@ -8,7 +8,7 @@ body{
 .principal{
     width: 80vw;
     background-color: white;
-    height: 110vw;
+    height: 270vw;
     border-radius: 7vw;
     margin-top: 3vw;
 }
@@ -19,6 +19,7 @@ header{
     justify-content: center;
     font-size: 2vw;
 }
+/* -----------------------------SECCION DE ANDRES---------------------- */
 .andres{
     font-size: 1.8vw;
     padding: 1vw;
@@ -27,6 +28,7 @@ header{
     margin-left: 10vw;
 }
 .foto-andres{
+    width: 20vw;
     margin-left:3.5vw;
     display: flex;
 }
@@ -53,4 +55,137 @@ header{
     margin-left: -0.1vw;
     width: 72vw;
     margin-top: -1vw;
+}
+/* -----------------------------SECCION DE CAMILA---------------------- */
+.camila{
+    font-size: 2vw;
+    padding: 1vw;
+}
+.texto-camila{
+    margin-left: 60vw;
+}
+.foto-camila{
+    width: 20vw;
+    margin-left: 52.5vw;
+}
+.info-camila{
+    margin-top: -34vw;
+    margin-left: 3.5vw;
+    width: 45vw;
+}
+.barra-camila{
+    width: 40vw;
+    margin-left: -0.1vw;
+    margin-top: -1.5vw;
+}
+.frase-camila{
+    margin-left: 50vw;
+    width: 28vw;
+    text-align: center;
+    margin-top: -10vw;
+    color: rgb(0, 153, 255);
+}
+.info-camila-abajo{
+    margin-left: 3.5vw;
+}
+.barra-camila2{
+    width: 70vw;
+    margin-left: -0.1vw;
+    margin-top: -1.5vw;
+}
+/* -----------------------------SECCION DE CAROLINA ---------------------- */
+.carolina{
+    font-size: 1.8vw;
+    padding: 1vw;
+}
+.texto-carolina{
+    margin-left: 10vw;
+}
+.foto-carolina{
+    width: 20vw;
+    margin-left:3.5vw;
+    display: flex;
+}
+.barra-carolina{
+    width: 40vw;
+    margin-left: -0.3vw;
+    margin-top: -1.5vw;
+}
+.info-carolina{
+    margin-left: 30vw;
+    margin-top: -32vw;
+}
+.frase-carolina{
+    margin-top: -5vw;
+    margin-left: 2vw;
+    width: 25vw;
+    text-align: center;
+    color: rgb(0, 153, 255);
+}
+.info-carolina-abajo{
+    margin-top: 2vw;
+    margin-left: 3.5vw;
+    font-weight: 0.5vw;
+}
+.barra-carolina2{
+    margin-left: -0.1vw;
+    width: 72vw;
+    margin-top: -1.5vw;
+}
+.final{
+    font-size: 1.8vw;
+    padding: 1vw;
+}
+.analisis{
+    text-align: center;
+}
+.DIAN2{
+    width: 7vw;
+}
+.CHULO{
+    width: 2vw;
+    margin-top: 1vw;
+}
+.conclusion{
+    text-align: center;
+}
+.capacidades, .capacidades2{
+    margin-left: 3.5vw;
+}
+.capacidades3{
+    text-align: center;
+    margin-top: -12vw;
+}
+.capacidades4{
+    text-align: center;
+    margin-top: 4vw;
+}
+.capacidades5{
+    text-align: center;
+    margin-top: -10vw;
+    margin-left: 50vw;
+}
+.capacidades5 img{
+    margin-left: -4vw;
+}
+.CHULO2{
+    width: 2vw;
+}
+.DIAN3{
+    width: 25vw;
+}
+@media screen and (max-width: 600px) {
+    .principal{
+        width: 80vw;
+        background-color: white;
+        height: 285vw;
+        border-radius: 7vw;
+        margin-top: 3vw;
+    }
+    .CHULO2{
+        width: 2vw;
+    }
+    .DIAN3{
+        width: 25vw;
+    }
 }
